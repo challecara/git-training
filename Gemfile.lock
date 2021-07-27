@@ -9,7 +9,6 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rake (13.0.6)
     ruby2_keywords (0.0.5)
     sinatra (2.1.0)
       mustermann (~> 1.0)
@@ -30,7 +29,6 @@ PLATFORMS
 
 DEPENDENCIES
   rack-test
-  rake
   sinatra
   sinatra-contrib
   webrick
