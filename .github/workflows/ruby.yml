@@ -1,0 +1,22 @@
+name: Ruby
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+    strategy:
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run tests
+      shell: bash
+      run:  |
+        docker-compose run --rm app bundle exec rspec
+      env:
+        RACK_ENV: test
