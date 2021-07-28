@@ -3,7 +3,7 @@ require 'rspec'
 
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
-ENV['RACK_ENV'] = 'test'
+ENV['RACK_ENV'] ||= 'test'
 
 module RSpecMixin
   include Rack::Test::Methods
