@@ -8,9 +8,9 @@ WSL2のインストールについては、[Microsft公式のWSLインストー�
 手順を実行する上での注意点があります。まず、一部（手順1- Linux 用 Windows サブシステムを有効にするなど）PowerShellで実行するコマンドがあります。コマンドプロンプトを管理者権限で起動して、手順にあるコマンドを実行してください。
 以下のように、コマンドプロンプトを検索して管理者として実行し、コマンドをコピペしてエンターで実行できます。
 
-![](setup-windows-img/cmd-admin.png)
+![](images/cmd-admin.png)
 
-![](setup-windows-img/exec-cmd.png)
+![](images/exec-cmd.png)
 
 
 次の注意点として、「手順6-選択した Linux ディストリビューションをインストールするがありますが」、ここでは[Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71)をインストールしてください。手順6にも記載がありますが、ユーザとパスワードを初回起動時に設定してください。Ubuntuの起動は、コマンドプロンプトと同様にWindows左下の検索バーに「Ubuntu」と検索することで出てきます。
@@ -22,9 +22,9 @@ WSL2のインストールについては、[Microsft公式のWSLインストー�
 
 また、Windowsターミナルの設定として、以下のようにUbuntuをデフォルトで起動するようにしておくと良いでしょう。
 
-![](setup-windows-img/winterminal-setting.png)
+![](images/winterminal-setting.png)
 
-![](setup-windows-img/winterminal-setting-ubuntu.png)
+![](images/winterminal-setting-ubuntu.png)
 
 これによって、次回のWindowsターミナル起動時から自動的にUbuntu20.04が起動するようになります。
 
@@ -38,13 +38,13 @@ Dockerが正常にインストールされたかを確認する方法を説明�
 Windowsターミナルを開いて、以下のようにコマンドを実行してください。同じような表示が出れば正常にインストールされています。
 
 #### 確認コマンド1
-![](setup-windows-img/docker-version.png)
+![](images/docker-version.png)
 
 #### 確認コマンド2
-![](setup-windows-img/docker-compose-version.png)
+![](images/docker-compose-version.png)
 
 #### 確認コマンド3
-![](setup-windows-img/docker-run.png)
+![](images/docker-run.png)
 
 #### 文字列で見たい方向け
 
