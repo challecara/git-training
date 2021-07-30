@@ -7,7 +7,9 @@ WSL2のインストールについては、[Microsft公式のWSLインストー�
 
 手順を実行する上での注意点があります。まず、一部（手順1- Linux 用 Windows サブシステムを有効にするなど）PowerShellで実行するコマンドがあります。コマンドプロンプトを管理者権限で起動して、手順にあるコマンドを実行してください。
 以下のように、コマンドプロンプトを検索して管理者として実行し、コマンドをコピペしてエンターで実行できます。
+
 ![](setup-windows-img/cmd-admin.png)
+
 ![](setup-windows-img/exec-cmd.png)
 
 
@@ -18,8 +20,10 @@ WSL2のインストールについては、[Microsft公式のWSLインストー�
 ### Windowsターミナルについて
 [Windows ターミナルをインストールする (省略可能)](https://docs.microsoft.com/ja-jp/windows/wsl/install-win10#install-windows-terminal-optional)という項目がありますが、こちらもやっておくことを推奨します。Windowsターミナルは強制ではありませんが、以下の説明はWindowsターミナルをベースにして解説していきます。
 
-また、Windowsターミナルの設定として、以下のようにUbuntuをデフォルトので起動するようにしておくと良いでしょう。
+また、Windowsターミナルの設定として、以下のようにUbuntuをデフォルトで起動するようにしておくと良いでしょう。
+
 ![](setup-windows-img/winterminal-setting.png)
+
 ![](setup-windows-img/winterminal-setting-ubuntu.png)
 
 これによって、次回のWindowsターミナル起動時から自動的にUbuntu20.04が起動するようになります。
