@@ -50,6 +50,7 @@ Windowsターミナルを開いて、以下のようにコマンドを実行し�
 
 <details>
 <summary>dockerコマンドの確認</summary>
+
 ``` .sh
 # コマンド1
 $ docker version
@@ -86,6 +87,7 @@ Client: Docker Engine - Community
 
 <details>
 <summary>docker-composeコマンドの確認</summary>
+
 ``` .sh
 # コマンド2
 $ docker-compose version
@@ -98,6 +100,7 @@ OpenSSL version: OpenSSL 1.1.0l  10 Sep 2019
 
 <details>
 <summary>コンテナが実行できるかの確認</summary>
+
 ``` .sh
 # コマンド3
 $ docker run hello-world
