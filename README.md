@@ -11,6 +11,7 @@ Git/GitHubを学ぶための資料やサンプルアプリを作成する場所�
 
 - [MacのDocker環境構築手順](./doc/setup-mac.md)
 - [WindowsのDocker環境構築手順](./doc/setup-windows.md)
+- [Visual Studio Codeのインストール手順](./doc/setup-vscode.md)
 - 演習でGitHubを利用する上で事前学習しておくと良いもの
   - [【超入門編】 GitHubの使い方 シリーズ ① GitHubアカウント登録手順](https://www.youtube.com/watch?v=SYVu3DymYfc)
   - [【超入門編】 GitHubの使い方 シリーズ ② GitとGitHubの違いとは？](https://www.youtube.com/watch?v=A4gSBUSAjNw)
