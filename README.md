@@ -12,6 +12,7 @@ Git/GitHubを学ぶための資料やサンプルアプリを作成する場所�
 - [MacのDocker環境構築手順](./doc/setup-mac.md)
 - [WindowsのDocker環境構築手順](./doc/setup-windows.md)
 - [GitHubへの登録手順](./doc/register-github.md)
+- [Visual Studio Codeのインストール手順](./doc/setup-vscode.md)
 
 ## 演習関連のドキュメント
 
