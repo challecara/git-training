@@ -6,6 +6,9 @@ on:
       - opened
       - synchronize
       - reopened
+    paths-ignore:
+      - 'doc/images/**'
+      - '**.md'
 
 jobs:
   test:
