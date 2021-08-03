@@ -1,4 +1,4 @@
-# Visual Studio Code（vscode）のセットアップ
+# Visual Studio Code（VS Code）のセットアップ
 
 ## インストール
 下記のURLよりご自身の環境に適したものをダウンロードしていただき、インストールを行ってください。
@@ -6,7 +6,7 @@
 https://code.visualstudio.com/download
 
 ## プラグインのインストール
-以下のプラグインをvscodeからインストールしてください。インストールしておくと便利かと思います。
+以下のプラグインをVS Codeからインストールしてください。インストールしておくと便利かと思います。
 他にも便利なプラグインがたくさんあるのでご自身の状況に合わせて調べてカスタマイズしていくと良いと思います。
 
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
