@@ -13,3 +13,4 @@ __フォークはチームメンバーの1人だけが行います。__
 コラボレーターへの招待の仕方は、
 [GitHub公式ドキュメント](https://docs.github.com/ja/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) を参照してください。
 
+また、演習でIssueを利用するので、フォークしたリポジトリの `Settings -> Features` にある、Issueのチェックボックスをオンにしておきましょう。
