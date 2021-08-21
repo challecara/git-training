@@ -6,5 +6,5 @@ get '/' do
 end
 
 get '/shunsuke-tamura' do
-  'Hello shunsuke-tamura'
+  'Hello shunsuke-tamura!'
 end
