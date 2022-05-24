@@ -13,8 +13,8 @@ Issueの作成方法は、[GitHubの公式ドキュメント](https://docs.githu
 ### 本文例
 ```
 ## やりたいこと
-`/challecara` にGetリクエストをすると、 `Hello challecara!` と表示される機能を実装する
+`/Ka0` にGetリクエストをすると、 `Hello Ka0!` と表示される機能を実装する
 
 ## 期待する動作
-`http://localhost:4567/challecara` にアクセスすると、Webブラウザに `Hello challecara!` と表示される
+`http://localhost:4567/Ka0` にアクセスすると、Webブラウザに `Hello Ka0!` と表示される
 ```
