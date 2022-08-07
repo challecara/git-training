@@ -8,7 +8,7 @@
 
 ### マージをする
 マージの仕方は、
-[GitHub公式ドキュメント](https://docs.github.com/ja/github/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request1) を参照してください。
+[GitHub公式ドキュメント](https://docs.github.com/ja/github/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request) を参照してください。
 
 今回は、通常のマージをするので、 SquashやRebaseは選択せずに、そのままMerge pull requestボタンを押します。
 
