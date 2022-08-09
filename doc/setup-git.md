@@ -3,6 +3,8 @@
 Gitでcommit(変更履歴を追加)する際に、誰が保存したのかを残すためにnameとemailを設定する。
 VisualStudio Codeのメニューから[表示 -> ターミナル]を開き、1行ずつ下記の設定を行う。
 
+※入力内容を間違ってしまった場合、同じコマンドを入力することで値が上書きされるため心配ありません。
+
 ```bash
 $ git config --global user.name 'GitHubのアカウント名(半角英数字)'
 $ git config --global user.email 'GitHubで登録したemail'
