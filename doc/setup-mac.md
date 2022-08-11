@@ -7,7 +7,7 @@
 
 ### インストーラーを利用する場合
 公式の手順に従ってインストールをします。
-https://hub.docker.com/editions/community/docker-ce-desktop-mac/
+https://docs.docker.com/desktop/install/mac-install/
 
 公式の手順が英語しか存在しないので、ここでは簡単に公式の手順に沿って、日本語で説明します。
 
