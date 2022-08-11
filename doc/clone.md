@@ -1,6 +1,6 @@
 ## リポジトリをクローンする
 
-リポジトリのクローンの仕方は、[GitHub 公式ドキュメント](https://docs.github.com/ja/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) を参照してください。
+リポジトリのクローンの仕方は、[GitHub 公式ドキュメント](https://docs.github.com/ja/repositories/creating-and-managing-repositories/cloning-a-repository) を参照してください。
 
 公式ドキュメント内では、`octocat/Spoon-Knife ` リポジトリをクローンしていますが、今回はチームメンバーの 1 人がフォークしたリポジトリをクローンします。
 ここではフォークしたメンバーを `zu-min` として説明します。
