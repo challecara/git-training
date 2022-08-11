@@ -3,34 +3,29 @@
 
 ## WSL2のインストール
 WSL2はWindows上でLinuxを動作させるための仕組みのことです。
-WSL2のインストールについては、[Microsft公式のWSLインストール手順](https://docs.microsoft.com/ja-jp/windows/wsl/install-win10#manual-installation-steps)が公開されており、こちらの手順に従ってインストールを行ってください。
+WSL2のインストールについては、[Microsft公式のWSLインストール手順](https://docs.microsoft.com/ja-jp/windows/wsl/install#manual-installation-steps)が公開されており、こちらの手順に従ってインストールを行ってください。
+Windowsのバージョンが古い場合は、「以前のバージョン向けの WSL 手動インストール手順」に手順があります。
 
-手順を実行する上での注意点があります。まず、一部（手順1- Linux 用 Windows サブシステムを有効にするなど）PowerShellで実行するコマンドがあります。コマンドプロンプトを管理者権限で起動して、手順にあるコマンドを実行してください。
-以下のように、コマンドプロンプトを検索して管理者として実行し、コマンドをコピペしてエンターで実行できます。
-
-![](images/setup-windows/cmd-admin.png)
-
-![](images/setup-windows/exec-cmd.png)
-
-
-次の注意点として、「手順6-選択した Linux ディストリビューションをインストールするがありますが」、ここでは[Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71)をインストールしてください。手順6にも記載がありますが、ユーザとパスワードを初回起動時に設定してください。Ubuntuの起動は、コマンドプロンプトと同様にWindows左下の検索バーに「Ubuntu」と検索することで出てきます。
+Distribution Nameは、Ubuntu-20.04とします。(Ubuntu-22.04も利用できると思いますが、動作確認はしていません。)
 
 以上の手順が正常に完了すると、WSL2（Windows Subsystem for Linux 2）が利用できるようになります。
 
 ### Windowsターミナルについて
-[Windows ターミナルをインストールする (省略可能)](https://docs.microsoft.com/ja-jp/windows/wsl/install-win10#install-windows-terminal-optional)という項目がありますが、こちらもやっておくことを推奨します。Windowsターミナルは強制ではありませんが、以下の説明はWindowsターミナルをベースにして解説していきます。
+[Windows ターミナルをインストールする](https://docs.microsoft.com/ja-JP/windows/terminal/install)
 
+こちらもやっておくことを推奨します。Windowsターミナルは強制ではありませんが、以下の説明はWindowsターミナルをベースにして解説していきます。
 また、Windowsターミナルの設定として、以下のようにUbuntuをデフォルトで起動するようにしておくと良いでしょう。
 
 ![](images/setup-windows/winterminal-setting.png)
-
 ![](images/setup-windows/winterminal-setting-ubuntu.png)
 
 これによって、次回のWindowsターミナル起動時から自動的にUbuntu20.04が起動するようになります。
 
 ## Dockerのインストールと確認
 ### インストール方法
-[こちらのリンク](https://hub.docker.com/editions/community/docker-ce-desktop-windows/)からDockerのインストーラを取得して実行し、指示に従ってください。インストールについてはこれで完了になります。
+[こちらのリンク](https://docs.docker.com/desktop/install/windows-install/)からDockerのインストーラを取得して実行し、指示に従ってください。インストールについてはこれで完了になります。
+
+https://docs.microsoft.com/ja-JP/windows/terminal/install
 
 ### 確認方法
 Dockerが正常にインストールされたかを確認する方法を説明します。
