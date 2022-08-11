@@ -25,7 +25,7 @@ Git/GitHubを学ぶための資料やサンプルアプリを作成する場所�
 
 この演習では、サンプルのWebアプリケーションに簡単な機能を追加します。
 
-機能の追加は、[GitHub flow](https://guides.github.com/introduction/flow/) に沿って行います。
+機能の追加は、[GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) に沿って行います。
 
 ### 内容
 
