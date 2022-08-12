@@ -1,5 +1,10 @@
 ## Issueを作成する
+### 注意事項
+Issueは、フォークした自身のリポジトリや、チームのリポジトリに作成してください。
 
+本リポジトリ (https://github.com/challecara/git-training) ではないので、注意してください。
+
+### Issueの作成方法
 Issueの作成方法は、[GitHubの公式ドキュメント](https://docs.github.com/ja/issues/tracking-your-work-with-issues/creating-an-issue) を参照してください
 
 ## Issue例
