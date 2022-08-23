@@ -19,7 +19,7 @@ https://docs.docker.com/desktop/install/mac-install/
 
 ```
 $ docker version
-$ docker-compose version
+$ docker compose version
 ```
 
 上記を実行した結果が、似たような結果になっているか確認しましょう。
@@ -39,11 +39,8 @@ Client: Docker Engine - Community
 
 上記を実行した結果が、似たような結果になっているか確認しましょう。
 ```
-$ docker-compose version
-docker-compose version 1.28.5, build c4eb3a1f
-docker-py version: 4.4.4
-CPython version: 3.9.0
-OpenSSL version: OpenSSL 1.1.1h  22 Sep 2020
+$ docker compose version
+ Docker Compose version v2.2.3
 ```
 
 4. 最後に、サンプル hello-world を実行して、期待通りに動作するか確認します。
@@ -100,7 +97,7 @@ Docker Desktopが起動すると、Macの右上にあるステータスバーに
 Docker Desktopが起動したら、正常にインストールされているか確認するために、インストールされたDocker, Docker Composeのバージョンを見てみます。
 ```
 $ docker version
-$ docker-compose version
+$ docker compose version
 ```
 
 最後に、サンプル hello-world を実行して、期待通りに動作するか確認します。
